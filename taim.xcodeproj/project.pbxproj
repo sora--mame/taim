@@ -24,6 +24,11 @@
 		4C02CE8318598021003FB38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C02CE5B18598020003FB38D /* Foundation.framework */; };
 		4C02CE8B18598021003FB38D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C02CE8918598021003FB38D /* InfoPlist.strings */; };
 		4C02CE8E18598021003FB38D /* taimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C02CE8D18598021003FB38D /* taimTests.m */; };
+		4C02CE9818598F82003FB38D /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C02CE9718598F82003FB38D /* pa.png */; };
+		4C02CE9A18598F96003FB38D /* gu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C02CE9918598F96003FB38D /* gu.png */; };
+		4C02CE9C18598FA0003FB38D /* ch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C02CE9B18598FA0003FB38D /* ch.png */; };
+		4C20EDF1186BF1DF007D6EC0 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C20EDF0186BF1DF007D6EC0 /* ViewController2.m */; };
+		4C20EDF4186C03F8007D6EC0 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C20EDF3186C03F8007D6EC0 /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,13 @@
 		4C02CE8A18598021003FB38D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C02CE8C18598021003FB38D /* taimTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taimTests.h; sourceTree = "<group>"; };
 		4C02CE8D18598021003FB38D /* taimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taimTests.m; sourceTree = "<group>"; };
+		4C02CE9718598F82003FB38D /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pa.png; path = ../../jan/pa.png; sourceTree = "<group>"; };
+		4C02CE9918598F96003FB38D /* gu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gu.png; path = ../../jan/gu.png; sourceTree = "<group>"; };
+		4C02CE9B18598FA0003FB38D /* ch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ch.png; path = ../../jan/ch.png; sourceTree = "<group>"; };
+		4C20EDEF186BF1DF007D6EC0 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4C20EDF0186BF1DF007D6EC0 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4C20EDF2186C03F8007D6EC0 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		4C20EDF3186C03F8007D6EC0 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,8 @@
 				4C02CE7718598021003FB38D /* ViewController.h */,
 				4C02CE7818598021003FB38D /* ViewController.m */,
 				4C02CE6018598021003FB38D /* Supporting Files */,
+				4C20EDEF186BF1DF007D6EC0 /* ViewController2.h */,
+				4C20EDF0186BF1DF007D6EC0 /* ViewController2.m */,
 			);
 			path = taim;
 			sourceTree = "<group>";
@@ -134,12 +148,17 @@
 			isa = PBXGroup;
 			children = (
 				4C02CE6118598021003FB38D /* taim-Info.plist */,
+				4C02CE9718598F82003FB38D /* pa.png */,
+				4C02CE9918598F96003FB38D /* gu.png */,
+				4C02CE9B18598FA0003FB38D /* ch.png */,
 				4C02CE6218598021003FB38D /* InfoPlist.strings */,
 				4C02CE6518598021003FB38D /* main.m */,
 				4C02CE6718598021003FB38D /* taim-Prefix.pch */,
 				4C02CE6B18598021003FB38D /* Default.png */,
 				4C02CE6D18598021003FB38D /* Default@2x.png */,
 				4C02CE6F18598021003FB38D /* Default-568h@2x.png */,
+				4C20EDF2186C03F8007D6EC0 /* ViewController3.h */,
+				4C20EDF3186C03F8007D6EC0 /* ViewController3.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -240,6 +259,9 @@
 				4C02CE7018598021003FB38D /* Default-568h@2x.png in Resources */,
 				4C02CE7318598021003FB38D /* MainStoryboard_iPhone.storyboard in Resources */,
 				4C02CE7618598021003FB38D /* MainStoryboard_iPad.storyboard in Resources */,
+				4C02CE9818598F82003FB38D /* pa.png in Resources */,
+				4C02CE9A18598F96003FB38D /* gu.png in Resources */,
+				4C02CE9C18598FA0003FB38D /* ch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +299,8 @@
 				4C02CE6618598021003FB38D /* main.m in Sources */,
 				4C02CE6A18598021003FB38D /* AppDelegate.m in Sources */,
 				4C02CE7918598021003FB38D /* ViewController.m in Sources */,
+				4C20EDF1186BF1DF007D6EC0 /* ViewController2.m in Sources */,
+				4C20EDF4186C03F8007D6EC0 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +491,7 @@
 				4C02CE9318598021003FB38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C02CE9418598021003FB38D /* Build configuration list for PBXNativeTarget "taimTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +500,7 @@
 				4C02CE9618598021003FB38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
