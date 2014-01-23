@@ -16,11 +16,6 @@
 
 @synthesize lb, dp;
 
-- (void)dealloc {
-    [lb release];
-    [dp release];
-    [super dealloc];
-}
 
 - (IBAction)DateChanged:(id)sender{
     

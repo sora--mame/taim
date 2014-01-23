@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController2 : ViewController{
-    
+
+
    __weak IBOutlet UIButton *ura;
     
    __weak IBOutlet UILabel *urake;
