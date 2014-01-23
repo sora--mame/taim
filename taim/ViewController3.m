@@ -14,6 +14,25 @@
 
 @implementation ViewController3
 
+@synthesize lb, dp;
+
+- (void)dealloc {
+    [lb release];
+    [dp release];
+    [super dealloc];
+}
+
+- (IBAction)DateChanged:(id)sender{
+    
+    //ラベルに表示する日付・時刻のフォーマットを指定
+    NSDateFormatter *df = [[NSDateFormatter alloc]init];
+    df.dateFormat = @"yyyy年MM月dd日 HH時mm分";
+    
+    //ラベルに指定したフォーマットで表示
+    lb.text = [df stringFromDate:dp.date];
+    
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

@@ -10,4 +10,15 @@
 
 @interface ViewController3 : ViewController
 
+{
+    UILabel *lb;
+    UIDatePicker *dp;
+}
+
+@property (nonatomic, retain) IBOutlet UILabel *lb;
+@property (nonatomic, retain) IBOutlet UIDatePicker *dp;
+
+- (IBAction)DateChanged:(id)sender;
+
+
 @end
