@@ -25,7 +25,6 @@
     
     //ラベルに指定したフォーマットで表示
     lb.text = [df stringFromDate:dp.date];
-    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
